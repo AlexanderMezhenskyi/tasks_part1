@@ -1,0 +1,36 @@
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    width: 230px;
+    min-width: 230px;
+    color: #928B83;
+    border: 1px solid #928B83;
+    margin: 0 7px 15px;
+    padding: 20px;
+    text-align: center;
+}
+.item span {
+    display: block;
+}
+.item img {
+    max-width: 100%;
+}
+.item .options-title {
+    color: #000;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.item .options {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+.item .price {
+    color: #000;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 15px;
+}
